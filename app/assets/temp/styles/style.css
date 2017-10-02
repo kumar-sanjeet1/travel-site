@@ -489,6 +489,7 @@ img{
 }
 
 .large-hero__text-content{
+   
         position: absolute;
         left: 0;
         right: 0;
@@ -501,7 +502,7 @@ img{
 
 .large-hero__heading{
         color: #2f5572;
-        font-size: 3.2rem;
+        font-size: 5.2rem;
         line-height: 2.1rem;
         font-weight: 100;
     }

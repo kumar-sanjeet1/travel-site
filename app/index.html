@@ -23,7 +23,17 @@
   </header>
 
   <div class="large-hero">
-    <img src="assets/images/hero--large.jpg">
+   
+   
+   
+   
+   <picture>
+         <source srcset ="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3600w" media="(min-width:1200px)">
+         <source srcset ="assets/images/hero--medium.jpg 900w, assets/images/hero--medium-hi-dpi.jpg 1800w" media="(min-width:920px)">
+         <source srcset ="assets/images/hero--small.jpg 600w, assets/images/hero--small-hi-dpi.jpg 1200w" media="(min-width:620px)">
+         <img srcset ="assets/images/hero--smaller.jpg 600w, assets/images/hero--smaller-hi-dpi.jpg 1200w"> 
+   </picture>
+  
     <div class="large-hero__text-content">
     <h1 class="large-hero__heading">Your clarity.</h1>
     <h2 class = "large-hero__subheading">One trip away.</h2>

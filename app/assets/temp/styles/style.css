@@ -502,9 +502,30 @@ img{
 
 .large-hero__heading{
         color: #2f5572;
-        font-size: 5.2rem;
+        font-size: 1.2rem;
         line-height: 2.1rem;
-        font-weight: 100;
+        font-weight: 600;
+    }
+
+@media (min-width: 530px) {
+
+.large-hero__heading{
+           font-size: 2.2rem
+    }
+    }
+
+@media (min-width: 800px) {
+
+.large-hero__heading{
+           font-size: 3.2rem
+    }
+    }
+
+@media (min-width: 1200px) {
+
+.large-hero__heading{
+           font-size: 4.2rem
+    }
     }
 
 .large-hero__subheading{
